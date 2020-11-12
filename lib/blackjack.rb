@@ -65,7 +65,7 @@ end
 
 def runner
    welcome
-  user_hand = initial_round
+  user_hand = initial_round #why do we have to constantly reassign these methods as variables and not access them right away?
   card_total = user_hand
 
   until card_total >= 21
